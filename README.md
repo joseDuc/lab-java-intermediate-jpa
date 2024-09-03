@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We have just learned how to use JPQL and native SQL statements with Spring JPA to query a database as well as how to model object inheritance and  component objects with JPA so let's practice a bit more.
+We have just learned how to use JPQL and native SQL statements with Spring JPA to query a database as well as how to main.model object inheritance and  component objects with JPA so let's practice a bit more.
 
 <br>
 
@@ -203,7 +203,7 @@ Once you finish the assignment, submit a URL link to your repository or your pul
     }
     ```
 
-  The choice of inheritance strategy depends on the requirements of the application, such as the need for normalization, the number of columns in the table and the number of joins required to retrieve data. For example, if the entities have many columns and normalization is important, then JOINED strategy is appropriate. If there are fewer columns, the TABLE_PER_CLASS strategy may be more suitable. The SINGLE_TABLE strategy is the simplest and most compact but may result in a less flexible data model.
+  The choice of inheritance strategy depends on the requirements of the application, such as the need for normalization, the number of columns in the table and the number of joins required to retrieve data. For example, if the entities have many columns and normalization is important, then JOINED strategy is appropriate. If there are fewer columns, the TABLE_PER_CLASS strategy may be more suitable. The SINGLE_TABLE strategy is the simplest and most compact but may result in a less flexible data main.model.
 
   <br>
 
